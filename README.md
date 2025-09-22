@@ -2,8 +2,6 @@
 
 A comprehensive React application designed to educate users about scams, provide tools for verification, reporting, and fighting back against scammers. This interactive web application guides users through various flows to help them identify, report, and protect themselves from online scams.
 
-![Scam Storyboard Flow](https://via.placeholder.com/800x400?text=Scam+Storyboard+Flow) <!-- Replace with actual screenshot -->
-
 ## Table of Contents
 
 - [Overview](#overview)
