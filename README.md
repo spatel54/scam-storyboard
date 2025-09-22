@@ -7,6 +7,7 @@ A comprehensive React application designed to educate users about scams, provide
 ## Table of Contents
 
 - [Overview](#overview)
+- [Application Flow](#application-flow)
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
@@ -27,6 +28,75 @@ The Scam Storyboard Flow is an educational tool designed to help users navigate 
 5. **Take Action** through various protective or offensive measures
 
 The application employs a user-friendly interface with a focus on accessibility and clear navigation, making it suitable for users of all technical skill levels.
+
+## Application Flow
+
+The application follows a structured flow that guides users through a complete scam education and response process:
+
+```
+                    ┌─────────────────┐
+                    │     Verify      │ ◄─── Start Here
+                    │  (Scam Check)   │
+                    └────────┬────────┘
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │     Share       │
+                    │   (Socialize)   │
+                    └────────┬────────┘
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │     Report      │
+                    │  (Scam Report)  │
+                    └────────┬────────┘
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │   Auto Report   │
+                    │   (Options)     │
+                    └────────┬────────┘
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │     Actions     │
+                    │  (Branch Point) │
+                    └──┬────────┬────┬─┘
+                       │        │    │
+        ┌──────────────┘        │    └──────────────┐
+        │                       │                   │
+        ▼                       ▼                   ▼
+┌─────────────────┐    ┌─────────────────┐  ┌─────────────────┐
+│    Protect      │    │      Fight      │  │     Educate     │
+│   Yourself      │    │   (Take Action) │  │  (Learn More)   │
+└─────────────────┘    └─────────────────┘  └─────────────────┘
+```
+
+### Flow Description:
+
+1. **Verify**: Users start by verifying if a communication is a scam, using tools to analyze messages or images.
+   
+2. **Share**: Users can share information about the scam with friends, family or communities.
+   
+3. **Report**: Provides mechanisms to report scams to appropriate authorities or platforms.
+   
+4. **Auto Report**: Offers automated reporting options to streamline the process.
+   
+5. **Actions**: A decision point where users choose one of three paths:
+   
+   - **Protect Yourself**: Tools and techniques to enhance personal security:
+     - Email subject line identifiers
+     - Word/number tricks for identifying scam emails
+     
+   - **Fight Back**: Options to actively combat scammers:
+     - Request website/service shutdowns
+     - Write to Congress/representatives
+     - Safe methods for baiting scammers
+     - Donation options for anti-scam organizations
+     
+   - **Educate**: Further educational resources about scams and prevention techniques
+
+The design allows users to navigate back and forth between sections, with a progress indicator showing their current position in the flow.
 
 ## Features
 
